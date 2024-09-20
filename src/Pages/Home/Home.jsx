@@ -4,6 +4,7 @@ import Welcome from "../../Components/Home/Welcome/Welcome";
 import Invitation from "../../Components/Home/Invitation/Invitation";
 import Banner from "../../Components/Home/Banner/Banner";
 import SignupInvitation from "../../Components/Home/SignupInvitation/SignupInvitation";
+import HowItWorks from "../../Components/Home/HowItWorks/HowItWorks";
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
       </div>
       {/* How it Works Section */}
       <div className="w-full flex items-center justify-center">
-        <h1>How it Works</h1>
+        <HowItWorks />
       </div>
       {/* Signup Invitation */}
       <div className="w-full flex items-center justify-center">
